@@ -1,0 +1,116 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,h2{
+    font-size: 1.6rem;
+}
+
+.section-heading{
+    color: #404E7C;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.hero-sec{
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    padding: 15% 0 15% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-sec-text{
+    text-align: center;
+    color: aliceblue;
+    padding: 10px 5px;
+    border-radius: 5px;
+    
+}
+
+#title{
+    padding: 10px 15px;
+    background-color: #404E7C;
+}
+#description{
+    padding: 10px 15px;
+    background-color: #71B48D;
+    margin: 0 20%;
+}
+
+.avtivity-sec{
+    background-color:#F1FAEE;
+    margin: 0;
+    padding: 20px 20px;
+    color: #404E7C;  
+}
+
+.activity-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.activity-container{
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+}
+
+.activity-heading{
+    font-weight: 700;
+    font-size: 1.2rem;   
+}
+
+.activity-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.guide-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px auto;
+    background-color: #A8DADC;
+    margin: 0;
+    padding: 100px 50px 100px 50px;
+}
+
+.guide-img{
+    width: 40%;
+    margin: 5% 0 5% 5%;
+    border-radius: 5px;
+}
+.guide-details{
+    margin: 0 10%;
+}
+.guide-details-p{
+    font-size: 1.5rm;
+}
+
+.footer{
+    background-color: rgb(39, 38, 38);
+    text-align: center;
+    color: rgb(196, 196, 196);
+    margin: 0;
+    padding: 100px 0 100px;
+}
+
+.footer-text{
+    margin: 5px auto;
+    font-weight: 100;
+    font-size: 0.9rem;
+    
+}
